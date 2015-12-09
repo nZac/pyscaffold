@@ -1,0 +1,24 @@
+# Contributing
+
+Thanks for offering your time, brain power, and finger strokes to this project.
+
+## Support questions
+
+Please don't submit support questions to the issue tracker, instead using the
+mailing list or StackOverflow.
+
+## Reporting Issues
+
+Try to be as detailed as possible. Include the library version, Python
+interpreter version, operating system, and any additional information like
+tracebacks.
+
+## Submitting Patches
+
+Try to follow PEP8 where it makes sense. Include tests for patches that fix bug
+and make sure your tests fail without your patch.
+
+## Running the test suite
+
+We use tox for this project, setup a virtual environment `pip install tox` then
+run `tox`.
